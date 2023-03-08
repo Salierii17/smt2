@@ -1,0 +1,10 @@
+table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+}
+td{
+    padding: 10px;
+    border: 1px solid;
+}
