@@ -6,13 +6,15 @@ body{
     justify-content: center;
     align-items: center;
     height: 50vh;
+    width: 50px;
 }
 table{
     border: solid yellow 1px;
+    padding: 10px;
 }
 
 td{
     border:  solid 1px;
-    padding: 5px;
+    padding: 100px;
     text-align: center;
 }

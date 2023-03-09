@@ -1,28 +1,44 @@
 <?php
-    $start= "*";
-    $space = "--";
-    for($i=1; $i<5; $i++){
-        for($j=0;$j<$i;$j++){
-            echo $space;
-            }echo $start;
-            echo "<br>";
-        }echo "<br> <br>";
-?>
-
-<?php
-    function createtriangle($c,$r){
+    function createtriangle1($c){
         $start= "*";
         $space = "--";
-        for($c=5;$c<0;$c--){
-            for($i=0; $i>$c; $i++){
+        for($c;$c>0;$c--){
+            for($i=0; $i<$c; $i++){
             echo $space;
             }
-            $r-=2;
             echo $start;
             echo "<br>";
         }
     }
-    $i-=2;
-
+    echo createtriangle1(5);
+    function createtriangle3($c){
+        $start= "*";
+        $space = "--";
+        for($d=0;$d<$c;$d++){
+            for($c; $c>0;$c--){
+            echo $space;
+            }
+            echo $start;
+            echo "<br>";
+        }
+    }
+    echo createtriangle3(5);
+    // function createtriangle2($c,$i){
+    //     $start= "*";
+    //     $space = "--";
+    //     for($d=0;$d<$c;$d++){
+    //         for($i; $i>0;$i--){
+    //         echo $space;
+    //         }
+    //         echo $start;
+    //         echo "<br>";
+    //     }
+    // }
+    // echo createtriangle2(5,5);
 ?>
+<br><br><br><br>
+
+<?php
+
+
 ?>

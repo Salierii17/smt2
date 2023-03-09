@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>\
+<head>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -8,7 +8,7 @@
     <?php
     function createtable($r,$c,$x){
         echo"<table>";
-        for($j=0;$j<$c;$j++){
+        for($j=0;$j<$r;$j++){
             echo "<tr>";
             for($i = 0;$i<$c;$i++){
                 echo "<td> $x </td>";

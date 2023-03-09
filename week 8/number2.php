@@ -18,4 +18,10 @@ function getnumber($co1,$co2,$co3){
     echo getnumber(53,3,5);
     echo "<br>";
     echo getnumber(59,9,5);
+    echo "<br>";
+    echo getnumber(23,3,2);
+    echo "<br>";
+    echo getnumber(46,6,4);
+    echo "<br>";
+    
 ?>
