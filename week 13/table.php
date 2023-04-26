@@ -1,7 +1,7 @@
 <?php
 
     include_once("config.php");
-    $result = mysqli_query($conn, "SELECT * FROM booking");
+    $result = mysqli_query($conn, "SELECT * FROM booking where");
 
 ?>
 
